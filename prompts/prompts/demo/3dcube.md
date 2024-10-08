@@ -1,4 +1,4 @@
-Create and implement the code, styling and readme for a Franklin
+Create and implement the code, styling and readme for an AEM component
 6-sided 3D cube named  3dcube, 
 the readme should include the guidance you respond with as text. 
 Each face should contain an image as a href link. 

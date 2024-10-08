@@ -1,0 +1,15 @@
+<div class="cmp-3dcube" data-sly-use.model="com.yourcompany.yourproject.core.models.CubeModel">
+    <div class="cube-container">
+        <div class="cube">
+            <sly data-sly-repeat.face="${model.faces}">
+                <div class="face face-${repeat.face.index}">
+                    <a href="${face.link}" ondblclick="navigateToLink(event, '${face.link}')">
+                        <img src="${face.image}" alt="Cube Face ${repeat.face.index + 1}" />
+                    </a>
+                </div>
+            </sly>
+        </div>
+    </div>
+</div>
+
+<script src="${clientlibs.js}"></script>
